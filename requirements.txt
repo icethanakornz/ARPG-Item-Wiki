@@ -1,8 +1,7 @@
 streamlit==1.28.1
-pillow==10.4.0                    # ✅ เปลี่ยนเป็น 10.4.0 (รองรับ Python 3.13)
-pandas==2.2.3                     # ✅ upgrade pandas
+pillow==10.4.0
+pandas==2.2.3
 streamlit-authenticator==0.3.3
 bleach==6.1.0
 python-magic==0.4.27
-python-magic-bin==0.4.14
 PyYAML==6.0.1
