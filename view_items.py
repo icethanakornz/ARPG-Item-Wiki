@@ -11,6 +11,7 @@ from database import get_all_item_types, get_all_rarities, get_all_locations, ge
 from utils import load_css, get_image_base64, get_rarity_color
 from models import Item
 
+st.set_page_config(layout="wide", page_icon="🔍", page_title="ค้นหาไอเท็ม")
 load_css()
 
 # ----------------------------------------------------------------------
