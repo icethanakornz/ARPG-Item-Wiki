@@ -1,1 +1,8 @@
-3.11.11
+streamlit==1.28.1
+pillow==11.1.0
+pandas==2.1.3                    # คงเดิม ใช้กับ Python 3.11
+streamlit-authenticator==0.3.3
+bleach==6.1.0
+python-magic==0.4.27
+python-magic-bin==0.4.14
+PyYAML==6.0.1
