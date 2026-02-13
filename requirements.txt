@@ -1,13 +1,8 @@
-# ===== CORE DEPENDENCIES =====
 streamlit==1.28.1
-pillow==10.0.1                    # Stable version, no build issues
+pillow==11.1.0                    # ✅ เปลี่ยนเป็นเวอร์ชัน 11
 pandas==2.1.3
-
-# ===== SECURITY DEPENDENCIES =====
 streamlit-authenticator==0.3.3
 bleach==6.1.0
 python-magic==0.4.27
+python-magic-bin==0.4.14
 PyYAML==6.0.1
-
-# Windows specific
-python-magic-bin==0.4.14; platform_system == "Windows"
