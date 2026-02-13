@@ -1,0 +1,46 @@
+# .streamlit/auth_config.yaml
+# ============================================
+# PRODUCTION AUTHENTICATION CONFIGURATION
+# Generated: 2026-02-13
+# WARNING: เก็บไฟล์นี้ให้ดี! ห้าม commit ขึ้น public repo!
+# ============================================
+
+credentials:
+  usernames:
+    # ===== ADMIN USER =====
+    # Username: admin
+    # Password: Arpg@Admin2026
+    admin:
+      email: admin@arpg-wiki.com
+      name: Administrator
+      password: $2b$12$8qUz9X5QyZx7YkL3mN4oP.RtVwJyK1LmN2oP3qR4sT5uV6wX7yZ8aB
+      role: admin
+      created_at: 2026-02-13
+      created_by: system
+
+    # ===== VIEWER USERS =====
+    # Username: viewer1
+    # Password: View@1234
+    viewer1:
+      email: viewer1@example.com
+      name: ผู้ใช้งานทั่วไป 1
+      password: $2b$12$mN3oP4qR5sT6uV7wX8yZ9aBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeF
+      role: viewer
+      created_at: 2026-02-13
+      created_by: admin
+
+    viewer2:
+      email: viewer2@example.com
+      name: ผู้ใช้งานทั่วไป 2
+      password: $2b$12$mN3oP4qR5sT6uV7wX8yZ9aBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeF
+      role: viewer
+      created_at: 2026-02-13
+      created_by: admin
+
+cookie:
+  name: arpg_item_wiki_production
+  key: 9aBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHi
+  expiry_days: 30
+
+preauthorized:
+  emails: []

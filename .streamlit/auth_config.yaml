@@ -1,0 +1,29 @@
+cookie:
+  expiry_days: 30
+  key: bb08e948eccefbfb394f199554bfed1a89143b1dcf8aef07cd1ea940cb500a59
+  name: arpg_item_wiki_production
+credentials:
+  usernames:
+    admin:
+      created_at: '2026-02-13'
+      created_by: system
+      email: admin@arpg-wiki.com
+      name: Administrator
+      password: $2b$12$MFSra1KKLlAfBPplx4nTeu.omV.eodRxnOWUTDzKIIGiLBWpwBicO
+      role: admin
+    viewer1:
+      created_at: '2026-02-13'
+      created_by: system
+      email: viewer1@example.com
+      name: ผู้ใช้งานทั่วไป 1
+      password: $2b$12$Kchzd2SxnvOB/Y1MIA5iEeeVF7LLY4k9V71AJ6ad1vdZYEYkUKpIm
+      role: viewer
+    viewer2:
+      created_at: '2026-02-13'
+      created_by: system
+      email: viewer2@example.com
+      name: ผู้ใช้งานทั่วไป 2
+      password: $2b$12$Kchzd2SxnvOB/Y1MIA5iEeeVF7LLY4k9V71AJ6ad1vdZYEYkUKpIm
+      role: viewer
+preauthorized:
+  emails: []
